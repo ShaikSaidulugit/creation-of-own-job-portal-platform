@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#first{
+    background-image: url(contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color: white;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.container ul{
+    display: flex;
+    
+    
+}
+.container ul li{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 40px;
+    text-align: center;
+    transition: all 0.4s;
+    
+}
+.container ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px 0px;
+    
+}
+.container ul li:hover{
+    background-color: white;
+    cursor: pointer;
+    
+}
+ #show{
+    background-color: white;
+    cursor: pointer;
+}
+#show a{
+    color: black;
+}
+.container ul li:hover a{
+    color: black;
+}
+.container h2{
+    font-size: 40px;
+    color: yellow;
+    font-family: serif;
+
+    
+}
+.container button{
+    width: 150px;
+    color: rgb(250, 241, 110);
+    background: transparent;
+    outline: none;
+    border: 1px solid rgb(250, 241, 110);
+    border-radius: 4px;
+    transition: all 0.4s;
+}
+.container button:hover{
+    border: 1px solid rgb(250, 241, 110);
+    background: rgb(250, 241, 110);
+    color: black;
+    cursor: pointer;
+}
+.main label{
+    font-size: 2em;
+}
+.main  input{
+    width: 400px;
+    height: 30px;
+}
+.main{
+    left: 200px;
+    position: relative;
+    top: 50px;
+}
+.main button{
+    padding: 10px 40px;
+    background: transparent;
+    border: 1px solid rgb(250, 144, 162);
+    color: white;
+    border-radius: 4px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.main button:hover{
+    background-color: rgb(250, 144, 162);
+    color: black;
+}
